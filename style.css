@@ -1,0 +1,118 @@
+body {
+  width: 1200px;
+  height: auto;
+  font-family: sans-serif;
+}
+
+a:link,
+:visited,
+:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.kategori h2 {
+  margin-bottom: 0px;
+}
+
+.liste {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kategori {
+  width: 200px;
+  height: auto;
+}
+
+.kategori_udsolgt {
+  width: 200px;
+  height: auto;
+  opacity: 50%;
+}
+
+.produkt_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.produkt_img {
+  width: 300px;
+  height: auto;
+  grid-column: 1/2;
+  margin-left: 50px;
+}
+
+.produkt-info {
+  grid-column: 2/3;
+}
+
+.produkt-info,
+li {
+  font-size: 13px;
+}
+
+.produkt-info,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.kategorier_overblik {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-content: center;
+}
+
+.trøje,
+.bukser,
+.sko {
+  background-color: rgb(216, 216, 216);
+  padding: 10px 30px;
+}
+
+.kategorier_overblik a:hover {
+  color: white;
+}
